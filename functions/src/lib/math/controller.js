@@ -8,6 +8,6 @@ function getMath(req, res) {
   });
 }
 
-//1//0c-hk0_iwfhjbCgYIARAAGAwSNwF-L9IrPjCBPO4-clMNh2wqOkKWeo1oTXLbC0FI6l0dQAgkirUGKcg2t2PgQBgBkj9lWEXjcvQ
+//1//0c-hk0_siwfhjbCgYIARAAGAwSNwF-L9IrPjCBPO4-clMNh2wqOkKWeo1oTXLbC0FI6l0dQAgkirUGKcg2t2PgQBgBkj9lWEXjcvQ
 
 module.exports={getMath};
