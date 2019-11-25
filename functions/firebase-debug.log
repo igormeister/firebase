@@ -1,0 +1,14 @@
+[debug] [2019-11-25T18:17:46.937Z] ----------------------------------------------------------------------
+[debug] [2019-11-25T18:17:46.941Z] Command:       /usr/bin/node /usr/bin/firebase deploy --only functions --token 1//0cRvI7EcggQcZCgYIARAAGAwSNwF-L9IrexL70ETq6bCpcIUgXEKJNRs6rdAAp7yzMcZ-n_KEmFp25BNDeGdxfr0JkU2ZKLVIeH0
+[debug] [2019-11-25T18:17:46.941Z] CLI Version:   7.7.0
+[debug] [2019-11-25T18:17:46.941Z] Platform:      linux
+[debug] [2019-11-25T18:17:46.941Z] Node Version:  v11.14.0
+[debug] [2019-11-25T18:17:47.867Z] Time:          Mon Nov 25 2019 20:17:46 GMT+0200 (GMT+02:00)
+[debug] [2019-11-25T18:17:47.867Z] ----------------------------------------------------------------------
+[debug] [2019-11-25T18:17:47.867Z] 
+[debug] [2019-11-25T18:17:47.880Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-25T18:17:47.881Z] > authorizing via --token option
+[debug] [2019-11-25T18:17:47.881Z] [iam] checking project project-is82 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-11-25T18:17:47.883Z] > refreshing access token with scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-25T18:17:47.883Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
