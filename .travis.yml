@@ -6,4 +6,4 @@ before_script:
   - cd functions && npm install
 
 script:
-  - firebase deploy --only functions --token "1//0cRvI7EcggQcZCgYIARAAGAwSNwF-L9IrexL70ETq6bCpcIUgXEKJNRs6rdAAp7yzMcZ-n_KEmFp25BNDeGdxfr0JkU2ZKLVIeH0
+  - firebase deploy --only functions --token "1//0cRvI7EcggQcZCgYIARAAGAwSNwF-L9IrexL70ETq6bCpcIUgXEKJNRs6rdAAp7yzMcZ-n_KEmFp25BNDeGdxfr0JkU2ZKLVIeH0"
