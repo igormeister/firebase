@@ -4,7 +4,9 @@ node_js: 8
 before_script:
   - npm install firebase-tools -g
   - cd functions && npm install
+  - npm install firebase-functions
   - cd ..
+  - npm install firebase-functions 
 
 script:
   -
