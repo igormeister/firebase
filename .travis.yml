@@ -9,12 +9,4 @@ before_script:
   - npm install firebase-functions 
 
 script:
-  -
-deploy:
-  provider: firebase
-  token:
-    secure: "GjhNMvzDju76sGu7WiiUtuXkN/9YL3dvl8G21MbfKHebjb7c9Zq25I1+H38S/6I1L1/pmtXbBSvZS4e5RJmdDRikIaGFlgcbIHQHadI2TJJhNVnaSTuuloy+uFgeIG3t+3KEbTmJ+sublWdFEJbLKtEPW7Dxo36gajs5hhexIAg04RfyDiIJHHOEotTy5aK0DgKyDtcd7xCEoRffX5snFYsOuGse5BXrdzhe2gMizvze+u7bkUb93352kF+sxj2lMdGX2lEgvUzqTRiin1jV3EAwptZBMoIy/C/yCT4vIEx/xvjUUH4pLoPdS/Y2w3OOmm7h/x1cn29o+vE8alDW9ZhFGOntrenp1rlnxEM0KKM1hqorwraQuVw5WZJuJlmY6Rr3zqE8fW+3fzA75SOWbhydQLnxfKq5+pdyfbzC3tI8abroB/ps9XiGBGONUeX9bJTUBXJMy4EUmQW5q+CNMvUbO0Zlg9OBxsygMFgVqGutl+pzeZKULu9xYJYvm9ckzA39PQuTkhLWsqLIKwTNA5tVvt1Yv0JwR3rKiqj1h+rxGHTpYRf+F+gTjtTmu2wxg1bp1vzMfjiQ/M0HNH9g8xW+G1nKsG3BR+8K/OwI38wMaxEIcAOGXFOk5lv2a0a8Vh5I8uYDpKJlV9jL9t986UWniYBOVjvqQQcAPrKYbdk="
-
-
-#script:
-#- firebase deploy --only functions --token "1//0cRvI7EcggQcZCgYIARAAGAwSNwF-L9IrexL70ETq6bCpcIUgXEKJNRs6rdAAp7yzMcZ-n_KEmFp25BNDeGdxfr0JkU2ZKLVIeH0"
+  - firebase deploy --only functions --token "$FIREBASE_TOKEN"
